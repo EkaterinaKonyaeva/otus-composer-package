@@ -1,10 +1,12 @@
 {
     "name": "ekaterina-konyaeva/otus-composer-package",
     "type": "library",
+    "require": {
+        "php": "7.2"
+    },
     "autoload": {
         "psr-4": {
             "EkaterinaKonyaeva\\OtusComposerPackage\\": "src/"
         }
-    },
-    "require": {}
+    }
 }
